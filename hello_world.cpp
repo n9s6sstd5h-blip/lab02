@@ -3,10 +3,10 @@
 
 int main()
 {
-    // Store the user name read from standard input.
+    // Переменная для хранения имени пользователя.
     std::string name;
 
-    // Ask for a name and print a personalized greeting.
+    // Запрашиваем имя и печатаем персональное приветствие.
     std::cout << "Enter your name: ";
     std::cin >> name;
     std::cout << "Hello world from " << name << std::endl;
